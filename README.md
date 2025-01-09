@@ -1,6 +1,6 @@
 # Monkhub Assignment 
 
-## Note : RapidApi Limit Exhausted
+### Note : RapidApi Limit Exhausted
 - The rapidapi limit are exhausted, now the application fetch data from hardcode object/json.
 
 
@@ -15,3 +15,7 @@
 -[3] Buy Now button inside product details 
 
 -[4] Checkout page 
+
+
+### Deployment
+Live Link : https://monkhub-ecommerce.netlify.app/
