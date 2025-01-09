@@ -1,5 +1,5 @@
 import { Heart, Star } from 'lucide-react'
-import React from 'react'
+
 
 const ProductCard = ({ productId, productImage, title, price, description, rating }) => {
     return (
@@ -16,8 +16,8 @@ const ProductCard = ({ productId, productImage, title, price, description, ratin
 
                 <div className='flex flex-row items-center justify-between text-base py-3'>
                     <span className='font-medium'>{title || ''}...</span>
-                    <span>{price}</span>
                 </div>
+                <span>{price || '$50.00'}</span>
 
                 <div className='flex flex-col justify-center py-2'>
                     <span className='text-xs font-medium pb-1'>{description || ''}...</span>

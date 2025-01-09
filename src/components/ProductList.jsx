@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom'
 import ProductCard from './ProductCard';
-import {productsData} from '../constants/productsData.js'
+import { productsData } from '../constants/productsData.js'
 
 
 

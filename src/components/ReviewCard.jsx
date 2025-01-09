@@ -1,5 +1,4 @@
 import { BadgeCheck, Star, User } from 'lucide-react'
-import React from 'react'
 
 const ReviewCard = ({ reviewId, reviewTitle, reviewAuthor, reviewText, rating, reviewDatetime }) => {
     return (
@@ -15,14 +14,14 @@ const ReviewCard = ({ reviewId, reviewTitle, reviewAuthor, reviewText, rating, r
 
                 <div className='py-4'>
                     <div className='flex flex-row gap-1 items-center'>
-                    <span className='flex flex-row gap-1 items-center'>
-                        <Star className='h-4 w-4 text-green-500 fill-green-500' />
-                        <Star className='h-4 w-4 text-green-500 fill-green-500' />
-                        <Star className='h-4 w-4 text-green-500 fill-green-500' />
-                        <Star className='h-4 w-4 text-green-500 fill-green-500' />
-                        <Star className='h-4 w-4 text-green-500 fill-green-500' />
-                    </span>
-                    <span className='font-medium text-sm'>({rating})</span>
+                        <span className='flex flex-row gap-1 items-center'>
+                            <Star className='h-4 w-4 text-green-500 fill-green-500' />
+                            <Star className='h-4 w-4 text-green-500 fill-green-500' />
+                            <Star className='h-4 w-4 text-green-500 fill-green-500' />
+                            <Star className='h-4 w-4 text-green-500 fill-green-500' />
+                            <Star className='h-4 w-4 text-green-500 fill-green-500' />
+                        </span>
+                        <span className='font-medium text-sm'>({rating})</span>
                     </div>
 
                     <h4 className='text-sm font-medium py-1'>{reviewTitle}</h4>
@@ -30,7 +29,7 @@ const ReviewCard = ({ reviewId, reviewTitle, reviewAuthor, reviewText, rating, r
                     <div className='py-2'>
                         <p className='text-xs '>
 
-                        {reviewText}
+                            {reviewText}
                         </p>
                     </div>
                 </div>

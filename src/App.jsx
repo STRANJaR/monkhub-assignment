@@ -1,6 +1,4 @@
-import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import ProductList from './components/ProductList'
 import ProductDetails from './components/ProductDetails'
 import PageNotFound from './components/PageNotFound'
 import CategoriesPage from './components/CategoriesPage'
@@ -13,7 +11,7 @@ const App = () => {
       <Route path="/" element={<Home />} />
       <Route path="/product/:id" element={<ProductDetails />} />
       <Route path="/categories" element={<CategoriesPage />} />
-      <Route path="/checkout" element={<ProductCheckout />} />
+      <Route path="/checkout/:id" element={<ProductCheckout />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   )

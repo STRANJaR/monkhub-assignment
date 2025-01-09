@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Link } from 'react-router-dom'
 
 const PageNotFound = () => {
@@ -11,7 +11,7 @@ const PageNotFound = () => {
             </p>
             <Link
                 to="/"
-                className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition duration-300"
+                className="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition duration-300"
             >
                 Go Back to Home
             </Link>
